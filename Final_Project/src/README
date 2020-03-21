@@ -1,0 +1,12 @@
+--How to Compile
+In this directory , enter the following command:
+$ make
+It will generate the executable file "Map" in the same directory.
+
+If you want to remove it please enter the following command:
+$ make clean
+
+--How to Run
+Usage: ./<exe> <agg> <k> <output_name> 
+e.g.:
+./map ../testcases/alu4.aag 3 ../output/alu4.out
